@@ -2,8 +2,8 @@
 @import "./fonts.css";
 
 /* MAIN */
-
 .main-wrapper {
+  margin: 0 auto;
   margin-top: 1px;
   background: #02160B;
   border-radius: 0px;
@@ -85,6 +85,15 @@ header nav ul li a {
   color: #f7f7f7;
 }
 
+.signIn-btn:hover {
+  background: #CD6326;
+}
+
+.signIn-btn:active {
+  background: #8F5613;
+  border: 2px solid #8F5613;
+}
+
 .find-icon {
   display: flex;
   align-items: center;
@@ -150,4 +159,12 @@ h1 {
   line-height: 27px;
   color: #f7f7f7;
   margin-top: 49px;
+}
+
+.donate-btn:hover {
+  background: #E39128;
+}
+
+.donate-btn:active {
+  background: #8F5613;
 }
